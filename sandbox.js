@@ -32,7 +32,8 @@ let favouritefoods = oddfoods.concat(newfoods);
 console.log("Favourite Foods:" + favouritefoods);
 
 //diplaying name in upper case
-console.log(" Name in Uppercase:" + fullName.toUpperCase());
+let name = ' john doe';
+console.log(" Name in Uppercase:" + name.toUpperCase());
 
 //dispaying total number of favourite food
 console.log(" Number of Favourite Foods:" + favouritefoods.length);
