@@ -11,7 +11,7 @@ const Age = "Age: " + '20';
 console.log(Age);
 
 //defining the email
-let email = "email: " + 'john@example.com';
+let email = "Email: " + 'john@example.com';
 console.log(email);
 
 //defining the country
@@ -28,8 +28,8 @@ let result = oddfoods.push('donut');
 const newfoods = ['beans', 'yam'];
 
 // adding oddfood and newfood array
-let favouritefoods = " favourite food:" + oddfoods.concat(newfoods);
-console.log(favouritefoods);
+let favouritefoods = oddfoods.concat(newfoods);
+console.log("Favourite Foods:" + favouritefoods);
 
 //diplaying name in upper case
 console.log(" Name in Uppercase:" + fullName.toUpperCase());
