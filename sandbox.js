@@ -3,19 +3,19 @@ const firstName = 'john';
 const lastName = 'doe';
 
 //concatenation of the string firstname and lastname
-let fullName = firstName + ' ' + lastName;
+let fullName = "Name: " + firstName + ' ' + lastName;
 console.log(fullName);
 
 //defining the age
-const Age = '20';
+const Age = "Age: " + '20';
 console.log(Age);
 
 //defining the email
-let email = 'john@example.com';
+let email = "email: " + 'john@example.com';
 console.log(email);
 
 //defining the country
-const country = 'Nigeria';
+const country = "Country: " + 'Nigeria';
 console.log(country);
 
 //array containing favourite food 
@@ -28,11 +28,11 @@ let result = oddfoods.push('donut');
 const newfoods = ['beans', 'yam'];
 
 // adding oddfood and newfood array
-let favouritefoods = oddfoods.concat(newfoods);
+let favouritefoods = " favourite food:" + oddfoods.concat(newfoods);
 console.log(favouritefoods);
 
 //diplaying name in upper case
-console.log(fullName.toUpperCase());
+console.log(" Name in Uppercase:" + fullName.toUpperCase());
 
 //dispaying total number of favourite food
-console.log(favouritefoods.length);
+console.log(" Number of Favourite Foods:" + favouritefoods.length);
